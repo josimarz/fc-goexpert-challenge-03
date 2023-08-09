@@ -1,0 +1,13 @@
+###
+POST http://localhost:8000/order HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "662e2433-b989-4a44-9740-99b490c50133",
+    "price": 12.99,
+    "tax": 0.99
+}
+
+###
+GET http://localhost:8000/order HTTP/1.1
+Content-Type: application/json

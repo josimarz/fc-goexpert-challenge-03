@@ -3,7 +3,7 @@ POST http://localhost:8000/order HTTP/1.1
 Content-Type: application/json
 
 {
-    "id": "662e2433-b989-4a44-9740-99b490c50133",
+    "id": "110c9783-8ca1-467c-a4f4-5ee66fa4a5eb",
     "price": 12.99,
     "tax": 0.99
 }
